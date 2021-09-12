@@ -1,0 +1,62 @@
+call 1 for func seconds excuted 0.01648630000000001 sec
+call 1 for func seconds excuted 0.016436499999999965 sec
+Name : func 
+Type :<class 'function'> 
+Sign:	(n)
+Args : positional (2,) 
+  	 key=worded : {}Doc:	 None 
+Source: @decorator_2def func(n):    # f = open('myfile.txt')    # s = f.readline()    # i = int(s.strip())    for _ in range(1000000):        pass    print(n+1)
+Output:	 3
+call 1 for funb seconds excuted 1.0100000000012876e-05 sec
+Name : funb 
+Type :<class 'function'> 
+Sign:	(a, b)
+Args : positional (2, 3) 
+  	 key=worded : {}Doc:	 None 
+Source: @decorator_2def funb(a, b):    return a+b
+Output:	 call 1 for func seconds excuted 0.01910719999999999 sec
+Name : func 
+Type :<class 'function'> 
+Sign:	(n)
+Args : positional (2,) 
+  	 key=worded : {}Doc:	 None 
+Source: @decorator_2def func(n):    # f = open('myfile.txt')    # s = f.readline()    # i = int(s.strip())    for _ in range(1000000):        pass    print(n+1)
+Output:	 3
+call 1 for funb seconds excuted 1.1100000000041632e-05 sec
+Name : funb 
+Type :<class 'function'> 
+Sign:	(a, b)
+Args : positional (2, 3) 
+  	 key=worded : {}Doc:	 None 
+Source: @decorator_2def funb(a, b):    return a+b
+Output:	 call 1 for func seconds excuted 0.02479950000000003 sec
+Name : func 
+Type :<class 'function'> 
+Sign:	(n)
+Args : positional (2,) 
+  	 key=worded : {}Doc:	 None 
+Source: @decorator_2def func(n):    # f = open('myfile.txt')    # s = f.readline()    # i = int(s.strip())    for _ in range(1000000):        pass    print(n+1)
+Output:	 3
+call 1 for funb seconds excuted 9.700000000001374e-06 sec
+Name : funb 
+Type :<class 'function'> 
+Sign:	(a, b)
+Args : positional (2, 3) 
+  	 key=worded : {}Doc:	 None 
+Source: @decorator_2def funb(a, b):    return a+b
+Output:	 call 1 for func seconds excuted 0.01730430000000005 sec
+Name : func 
+Type :<class 'function'> 
+Sign:	(n)
+Args : positional (2,) 
+  	 key=worded : {}Doc:	 None 
+Source: @decorator_2def func(n):    # f = open('myfile.txt')    # s = f.readline()    # i = int(s.strip())    for _ in range(1000000):        pass    print(n+1)
+Output:	 3
+call 1 for funb seconds excuted 9.09999999998412e-06 sec
+Name : funb 
+Type :<class 'function'> 
+Sign:	(a, b)
+Args : positional (2, 3) 
+  	 key=worded : {}Doc:	 None 
+Source: @decorator_2def funb(a, b):    return a+b
+Output:	 
