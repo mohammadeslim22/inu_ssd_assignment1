@@ -1,11 +1,12 @@
 import cmath
-from task1 import counted
-from task2 import decorator1
-from task3 import decorator_2
-from task4 import decorator_3
+from src.task1 import counted
+from src.task2 import decorator1
+from src.task3 import decorator_2
+from src.task4 import decorator_3
 
-import task3
-import task4
+from src import task3, task4
+
+
 # function one
 def pascal_triangle(n):
     side = [0]
