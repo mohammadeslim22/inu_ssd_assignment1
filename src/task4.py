@@ -34,7 +34,7 @@ class decorator_3:
             prints = o.getvalue()
             with open('prints.txt', 'a') as printer:
                 printer.writelines(
-                    f"call {decorator_2.counter} for {self.meth.__name__} seconds excuted {end-begin} sec" + "\n")
+                    f"call {decorator_3.count} for {self.meth.__name__} seconds excuted {end-start} sec" + "\n")
                 printer.writelines(f"Name : {self.meth.__name__} \n")
                 printer.writelines(f"Type :{type(self.meth)} \n")
                 printer.writelines(f"Sign:\t{inspect.signature(self.meth)}\n")
